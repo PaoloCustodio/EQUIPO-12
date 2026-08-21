@@ -24,3 +24,14 @@ INTEGRANTES:
     2 Lista 2
 [Enlace del drive](https://drive.google.com/drive/folders/1hwJnsGWQx54LwoBMaPVCtZE5f-OZ3TuA)
 
+
+---
+# 📸 Fotografía del Equipo
+
+---
+# 👥 Integrantes del Equipo
+
+
+---
+# 📌 Resumen Final
+
