@@ -27,7 +27,7 @@ Integrantes:
 | ![Andrea Palpa](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/andreafoto.jpeg?raw=true)  | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe |
 | Content Cell  | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe |
 | Content Cell  | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe |
-| Content Cell  | Huapaya Cruz, Diego Alejandro  | diego.huapaya@upch.pe |
+| <img src="u[rl-de-tu-imagen.png](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/Foto%20pasaporte%20Diego%20Alejandro%20Huapaya%20Cruz%2073623871.jpg?raw=true)" width="300"> | Huapaya Cruz, Diego Alejandro  | diego.huapaya@upch.pe |
 
 ---
 # 📌 Resumen Final
