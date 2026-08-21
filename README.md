@@ -2,11 +2,13 @@
 
 **Carrera de Ingeniería Biomédica**
 
-Universidad Peruana Cayetano Heredia
+**Universidad Peruana Cayetano Heredia**
 
 ---
 # 🌍 Descripción del equipo
-Bienvenidos al repositorio del grupo 12!!!
+Somos el Equipo 12 del curso Fundamentos de biodiseño 2026-2, conformado por estudiantes de la carrera de Ingeniería Biomédica.
+Bienvenidos a nuestro repositorio!
+
 Proyecto: 
 
 INTEGRANTES:
