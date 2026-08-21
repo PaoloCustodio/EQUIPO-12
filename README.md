@@ -20,11 +20,13 @@ Temática: Lesión medular y rehabilitación neurológica
 ---
 # 👥 Integrantes del Equipo
 Integrantes:
-- Custodio Ching, Flavio Paolo Ramces (colaborador) - paolo.custodio@upch.pe
-- Huari Rivera, Diego Sebastian (colaborador) - sebastian.huari@upch.pe
-- Palpa Alvarado, Andrea del Rosario (colaborador) - andrea.palpa@upch.pe
-- Lamas Carrubba, Camila Miranda (colaborador) - camila.lamas@upch.pe
-- Sánchez Saavedra, Mariana Rocío (colaborador) - mariana.sanchez.saavedra@upch.pe
+| Foto  | Nombre| Correo |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe  |
+| Content Cell  | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe |
+| Content Cell  | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe |
+| Content Cell  | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe |
+| Content Cell  | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe |
 
 ---
 # 📌 Resumen Final
