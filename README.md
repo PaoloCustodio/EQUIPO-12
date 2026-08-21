@@ -3,6 +3,7 @@
 **Carrera de Ingeniería Biomédica**
 
 **Universidad Peruana Cayetano Heredia**
+
 ![Logo cayetano](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/Logo%20cayetano.jpg?raw=true)
 ---
 # 🌍 Descripción del equipo
