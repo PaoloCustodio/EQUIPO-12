@@ -24,7 +24,7 @@ Integrantes:
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | <img src="/Recursos e imágenes/PaoloCustodio.jpg" width="220">  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe | Asistente 1 |  |
 | <img src="/Recursos e imágenes/SebastianHuari.jpg" width="220">   | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe | Asistente 2 |  |
-| <img src="/Recursos e imágenes/andreafoto.jpeg" width="220"> | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe | Encargada de apuntes "*Escriba*" |  |
+| <img src="/Recursos e imágenes/andreafoto.jpeg" width="220"> | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe | Encargada de apuntes  |  |
 | <img src="/Recursos e imágenes/WhatsApp Image 2026-08-21 at 11.22.27 AM.jpeg" width="220"> | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe | Líder |  |
 | <img src="/Recursos e imágenes/Mariana.jpeg" width="220"> | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe | Vicelíder |  |
 | <img src="/Recursos e imágenes/Foto pasaporte Diego Alejandro Huapaya Cruz 73623871.jpg" width="220"> | Huapaya Cruz, Diego Alejandro  | diego.huapaya@upch.pe | Encargado de modelado e impresión | Desarrollo en ingeniería de tejidos |
