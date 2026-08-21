@@ -9,7 +9,7 @@ Bienvenidos al repositorio del grupo 12!!!
 Proyecto: 
 
 INTEGRANTES:
-- Custodio CHing, Flavio Paolo Ramces
+- Custodio Ching, Flavio Paolo Ramces
 - Huari Rivera, Diego Sebastian
 - Palpa Alvarado, Andrea del Rosario
 - Lamas Carrubba, Camila Miranda
