@@ -20,14 +20,14 @@ Temática: Lesión medular y rehabilitación neurológica
 ---
 # 👥 Integrantes del Equipo
 Integrantes:
-| Foto  | Nombre| Correo |
-| ------------- | ------------- | ------------- |
-| <img src="/Recursos e imágenes/PaoloCustodio.jpg" width="220">  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe  |
-| <img src="/Recursos e imágenes/SebastianHuari.jpg" width="220">   | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe |
-| <img src="/Recursos e imágenes/andreafoto.jpeg" width="220"> | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe |
-| ![Camila Lamas](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/WhatsApp%20Image%202026-08-21%20at%2011.22.27%20AM.jpeg?raw=true)  | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe |
-| <img src="/Recursos e imágenes/Mariana.jpeg" width="220"> | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe |
-| <img src="/Recursos e imágenes/Foto pasaporte Diego Alejandro Huapaya Cruz 73623871.jpg" width="220"> | Huapaya Cruz, Diego Alejandro  | diego.huapaya@upch.pe |
+| Foto  | Nombre| Correo | Rol │ Intereses │
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| <img src="/Recursos e imágenes/PaoloCustodio.jpg" width="220">  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe |  |  |
+| <img src="/Recursos e imágenes/SebastianHuari.jpg" width="220">   | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe |  |  |
+| <img src="/Recursos e imágenes/andreafoto.jpeg" width="220"> | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe |  |  |
+| <img src="/Recursos e imágenes/WhatsApp Image 2026-08-21 at 11.22.27 AM.jpeg" width="220"> | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe |  |  |
+| <img src="/Recursos e imágenes/Mariana.jpeg" width="220"> | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe |  |  |
+| <img src="/Recursos e imágenes/Foto pasaporte Diego Alejandro Huapaya Cruz 73623871.jpg" width="220"> | Huapaya Cruz, Diego Alejandro  | diego.huapaya@upch.pe | Anatomista | Desarrollo en ingeniería de tejidos |
 
 ---
 # 📌 Resumen Final
