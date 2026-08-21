@@ -11,12 +11,7 @@ Bienvenidos a nuestro repositorio!
 
 Proyecto: 
 
-INTEGRANTES:
-- Custodio Ching, Flavio Paolo Ramces
-- Huari Rivera, Diego Sebastian
-- Palpa Alvarado, Andrea del Rosario
-- Lamas Carrubba, Camila Miranda
-- Sanchez Saavedra, Mariana Rocio
+
 
   * Lista 1
   * Lista 1
@@ -30,7 +25,12 @@ INTEGRANTES:
 
 ---
 # 👥 Integrantes del Equipo
-
+Integrantes:
+- Custodio Ching, Flavio Paolo Ramces (colaborador) - 
+- Huari Rivera, Diego Sebastian (colaborador) -
+- Palpa Alvarado, Andrea del Rosario (colaborador) -
+- Lamas Carrubba, Camila Miranda (colaborador) - camila.lamas@upch.edu.pe
+- Sánchez Saavedra, Mariana Rocío (colaborador) -
 
 ---
 # 📌 Resumen Final
