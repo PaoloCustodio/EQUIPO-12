@@ -9,7 +9,7 @@
 Somos el Equipo 12 del curso Fundamentos de Biodiseño 2026-2, conformado por estudiantes de la carrera de Ingeniería Biomédica.
 Bienvenidos a nuestro repositorio!
 
-Proyecto: 
+Temática: Lesión medular y rehabilitación neurológica
 
 ---
 # 📸 Fotografía del Equipo
