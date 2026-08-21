@@ -22,7 +22,7 @@ Temática: Lesión medular y rehabilitación neurológica
 Integrantes:
 | Foto  | Nombre| Correo |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe  |
+| ![Paolo Custodio](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/PaoloCustodio.jpg?raw=true)  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe  |
 | ![Sebastian Huari](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/SebastianHuari.jpg?raw=true)  | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe |
 | ![Andrea Palpa](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/andreafoto.jpeg?raw=true)  | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe |
 | Content Cell  | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe |
