@@ -27,4 +27,4 @@ Integrantes:
 
 ---
 # 📌 Resumen Final
-
+Este read.me tiene el objetivo de introducir a los miembros del proyecto y dar a conocer los objetivos del grupo.
