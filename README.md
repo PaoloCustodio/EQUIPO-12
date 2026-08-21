@@ -20,8 +20,8 @@ Integrantes:
 - Custodio Ching, Flavio Paolo Ramces (colaborador) - 
 - Huari Rivera, Diego Sebastian (colaborador) - sebastian.huari@upch.pe
 - Palpa Alvarado, Andrea del Rosario (colaborador) -
-- Lamas Carrubba, Camila Miranda (colaborador) - camila.lamas@upch.edu.pe
-- Sánchez Saavedra, Mariana Rocío (colaborador) -
+- Lamas Carrubba, Camila Miranda (colaborador) - camila.lamas@upch.pe
+- Sánchez Saavedra, Mariana Rocío (colaborador) - mariana.sanchez.saavedra@upch.pe
 
 ---
 # 📌 Resumen Final
