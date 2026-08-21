@@ -4,6 +4,7 @@
 
 **Universidad Peruana Cayetano Heredia**
 
+![Logo cayetano](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/Logo%20cayetano.jpg?raw=true)
 ---
 # 🌍 Descripción del equipo
 Somos el Equipo 12 del curso Fundamentos de Biodiseño 2026-2, conformado por estudiantes de la carrera de Ingeniería Biomédica.
@@ -26,4 +27,4 @@ Integrantes:
 
 ---
 # 📌 Resumen Final
-
+Este read.me tiene el objetivo de introducir a los miembros del proyecto y dar a conocer los objetivos del grupo.
