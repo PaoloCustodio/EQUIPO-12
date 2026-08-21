@@ -23,7 +23,7 @@ Integrantes:
 | Foto  | Nombre| Correo |
 | ------------- | ------------- | ------------- |
 | Content Cell  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe  |
-| Content Cell  | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe |
+| ![Sebastian Huari](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/SebastianHuari.jpg?raw=true)  | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe |
 | Content Cell  | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe |
 | Content Cell  | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe |
 | Content Cell  | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe |
