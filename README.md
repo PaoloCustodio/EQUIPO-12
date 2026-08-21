@@ -7,11 +7,21 @@
 ![Logo cayetano](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/Logo%20cayetano.jpg?raw=true)
 ---
 # 🌍 Descripción del equipo
-Somos el Equipo 12 del curso Fundamentos de Biodiseño 2026-2, conformado por estudiantes de la carrera de Ingeniería Biomédica.
+Somos el Equipo 12 del curso Fundamentos de Biodiseño 2026-2, conformado por estudiantes de la carrera de Ingeniería Biomédica. Comprendemos el impacto que los accidentes medulares pueden ejercer en la vida de los pacientes, por lo cual deseamos implementar nuestros conocimientos en salud e ingeniería para mejorar su estado.
 
 Bienvenidos a nuestro repositorio!
 
 Temática: Lesión medular y rehabilitación neurológica
+
+Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS):
+
+* **ODS 3:** Salud y bienestar.
+* **ODS 10:** Reducción de las desigualdades.
+* **ODS 4:** Educación de calidad.
+* **ODS 8:** Trabajo decente y crecimiento económico.
+* **ODS 11:** Ciudades y comunidades sostenibles.
+* **ODS 5:** Igualdad de género.
+* **ODS 16:** Paz, justicia e instituciones sólidas.
 
 ---
 # 📸 Fotografía del Equipo:
