@@ -2,9 +2,11 @@
 
 **Carrera de Ingeniería Biomédica**
 
-<div align="center">**Universidad Peruana Cayetano Heredia**</div>
+<p align="center"> **Universidad Peruana Cayetano Heredia** </p>
 
-<div align="center">![Logo cayetano](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/Logo%20cayetano.jpg?raw=true)</div>
+<div align="center">
+   ![Logo cayetano](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/Logo%20cayetano.jpg?raw=true)
+</div>
 ---
 # 🌍 Descripción del equipo
 Somos el Equipo 12 del curso Fundamentos de Biodiseño 2026-2, conformado por estudiantes de la carrera de Ingeniería Biomédica. Comprendemos el impacto que los accidentes medulares pueden ejercer en la vida de los pacientes, por lo cual deseamos implementar nuestros conocimientos en salud e ingeniería para mejorar su estado.
