@@ -32,12 +32,12 @@ Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS)
 Integrantes:
 | Foto  | Nombre| Correo | Rol | Intereses |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="/Recursos e imágenes/PaoloCustodio.jpg" width="220">  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe | Asistente 1 | Interés devoto en la ingeniería de tejidos |
-| <img src="/Recursos e imágenes/SebastianHuari.jpg" width="220">   | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe | Asistente 2 | Sistemas mecatrónicos para aplicaciones biomédicas |
-| <img src="/Recursos e imágenes/andreafoto.jpeg" width="220"> | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe | Encargada de apuntes  | Área de tejidos e investigación |
-| <img src="/Recursos e imágenes/WhatsApp Image 2026-08-21 at 11.22.27 AM.jpeg" width="220"> | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe | Líder | Devolver la calidad de vida a los pacientes mediante la implementación de prótesis |
-| <img src="/Recursos e imágenes/Mariana.jpeg" width="220"> | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe | Vicelíder | Modelado de órganos bio-impresos |
-| <img src="/Recursos e imágenes/Foto pasaporte Diego Alejandro Huapaya Cruz 73623871.jpg" width="220"> | Huapaya Cruz, Diego Alejandro  | diego.huapaya@upch.pe | Encargado de modelado e impresión | Desarrollo en ingeniería de tejidos |
+| <img src="/Recursos e imágenes/Integrantes/PaoloCustodio.jpg" width="220">  | Custodio Ching, Flavio Paolo Ramces  | paolo.custodio@upch.pe | Asistente 1 | Interés devoto en la ingeniería de tejidos |
+| <img src="/Recursos e imágenes/Integrantes/SebastianHuari.jpg" width="220">   | Huari Rivera, Diego Sebastian  | sebastian.huari@upch.pe | Asistente 2 | Sistemas mecatrónicos para aplicaciones biomédicas |
+| <img src="/Recursos e imágenes/Integrantes/andreafoto.jpeg" width="220"> | Palpa Alvarado, Andrea del Rosario  | andrea.palpa@upch.pe | Encargada de apuntes  | Área de tejidos e investigación |
+| <img src="/Recursos e imágenes/Integrantes/WhatsApp Image 2026-08-21 at 11.22.27 AM.jpeg" width="220"> | Lamas Carrubba, Camila Miranda  | camila.lamas@upch.pe | Líder | Devolver la calidad de vida a los pacientes mediante la implementación de prótesis |
+| <img src="/Recursos e imágenes/Integrantes/Mariana.jpeg" width="220"> | Sánchez Saavedra, Mariana Rocío  | mariana.sanchez.saavedra@upch.pe | Vicelíder | Modelado de órganos bio-impresos |
+| <img src="/Recursos e imágenes/Integrantes/Foto pasaporte Diego Alejandro Huapaya Cruz 73623871.jpg" width="220"> | Huapaya Cruz, Diego Alejandro  | diego.huapaya@upch.pe | Encargado de modelado e impresión | Desarrollo en ingeniería de tejidos |
 
 ---
 # 📌 Resumen Final
