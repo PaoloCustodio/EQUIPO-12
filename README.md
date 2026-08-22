@@ -25,7 +25,7 @@ Nos interesa trabajar en los siguientes Objetivos de Desarrollo Sostenible (ODS)
 
 ---
 # 📸 Fotografía del Equipo:
-![Foto grupal](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/WhatsApp%20Image%202026-08-21%20at%2011.17.27%20AM.jpeg?raw=true)
+![Foto grupal](https://github.com/PaoloCustodio/EQUIPO-12/blob/main/Recursos%20e%20im%C3%A1genes/Integrantes/WhatsApp%20Image%202026-08-21%20at%2011.17.27%20AM.jpeg?raw=true)
    <em>Figura 1. Fotografía del equipo 12</em>
 ---
 # 👥 Integrantes del Equipo
