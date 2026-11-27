@@ -1,0 +1,196 @@
+#include <Arduino.h>
+#include <math.h>
+#include <stdio.h>
+#include "BluetoothSerial.h"
+
+#if !defined(CONFIG_BT_SPP_ENABLED)
+#error "Se requiere ESP32 clasico con Bluetooth SPP"
+#endif
+
+BluetoothSerial SerialBT;
+
+const int PINES[3] = {33, 34, 35};
+const float A[3] = {0.400820638f, 0.172774785f, 0.226249212f};
+const float B[3] = {0.00108601224442f, 0.00137798680868f, 0.00129595245277f};
+float ganancia[3] = {0.52f, 0.52f, 0.50f};
+float curva[3] = {1.00f, 0.93f, 0.86f};
+
+const float AREA_M2 = 0.000173431308282f;
+const float GRAVEDAD = 9.80665f;
+const int NUM_MUESTRAS = 20;
+const int PERIODO_MS = 1800;
+const bool MOSTRAR_TRAMA_EN_SERIAL = false;
+const bool USAR_CORRECCION = true;
+
+// Masa original que indica cada sensor con 730 g reales.
+// Referencias provisionales del sketch original, en orden GPIO33, 34 y 35.
+float lectura730[3] = {550.0f, 600.0f, 530.0f};
+
+float adcProm[3];
+float masaOriginal[3];
+float masaFinal[3];
+float fuerzaFinal[3];
+float presionFinal[3];
+String estado[3];
+String pantalla[3];
+
+float corregirMasa(float masa, int i) {
+  if (!isfinite(masa) || i < 0 || i >= 3) return NAN;
+  if (!USAR_CORRECCION) return masa;
+
+  if (masa <= 330.0f) return fmaxf(0.0f, masa * (230.0f / 330.0f));
+  if (masa <= 450.0f) return masa - 100.0f;
+  if (masa <= 480.0f) return 350.0f + (masa - 450.0f) * (130.0f / 30.0f);
+
+  const float x730 = lectura730[i];
+  if (!isfinite(x730) || x730 <= 480.0f) return NAN;
+
+  // Esta misma recta interpola hasta 730 g y extrapola por encima.
+  return 480.0f + (masa - 480.0f) * (250.0f / (x730 - 480.0f));
+}
+
+void leerADC(int pin, float &promedio, bool &saturado) {
+  analogRead(pin);
+  delay(2);
+  uint32_t suma = 0;
+  saturado = false;
+  for (int n = 0; n < NUM_MUESTRAS; n++) {
+    int lectura = analogRead(pin);
+    suma += lectura;
+    if (lectura >= 4095) saturado = true;
+    delay(2);
+  }
+  promedio = suma / (float)NUM_MUESTRAS;
+}
+
+void procesarOrden(String orden) {
+  orden.trim();
+  if (orden.length() == 0) return;
+  int pin;
+  float g, c;
+  char extra;
+  bool correcto = sscanf(orden.c_str(), "%d %f %f %c", &pin, &g, &c, &extra) == 3;
+  if (correcto && pin >= 33 && pin <= 35 && isfinite(g) && isfinite(c) &&
+      g > 0.0f && c > 0.0f) {
+    int i = pin - 33;
+    ganancia[i] = g;
+    curva[i] = c;
+    Serial.print("Ajuste aplicado a GPIO");
+    Serial.println(pin);
+  } else {
+    Serial.println("Orden invalida: GPIO GANANCIA CURVA");
+    Serial.println("Ejemplo: 35 0.50 0.86");
+  }
+}
+
+void revisarEntradas() {
+  if (Serial.available()) procesarOrden(Serial.readStringUntil('\n'));
+  if (SerialBT.available()) procesarOrden(SerialBT.readStringUntil('\n'));
+}
+
+void medirSensor(int i) {
+  float adc;
+  bool saturado;
+  leerADC(PINES[i], adc, saturado);
+  adcProm[i] = adc;
+  masaOriginal[i] = masaFinal[i] = fuerzaFinal[i] = presionFinal[i] = NAN;
+  estado[i] = "SIN_LECTURA";
+  pantalla[i] = "Sin lectura";
+  if (adc <= 0.0f) return;
+  if (saturado) {
+    estado[i] = "ADC_SATURADO";
+    pantalla[i] = "ADC saturado";
+    return;
+  }
+
+  const float fuerza = ganancia[i] * A[i] * expf(B[i] * curva[i] * adc);
+  masaOriginal[i] = fuerza * 1000.0f / GRAVEDAD;
+  const float masa = corregirMasa(masaOriginal[i], i);
+  const float fuerzaN = masa * GRAVEDAD / 1000.0f;
+  const float presionKPa = fuerzaN / AREA_M2 / 1000.0f;
+
+  if (!isfinite(masa) || !isfinite(fuerzaN) || !isfinite(presionKPa)) {
+    estado[i] = "ERROR_CALCULO";
+    pantalla[i] = "Error de calculo";
+    return;
+  }
+  masaFinal[i] = masa;
+  fuerzaFinal[i] = fuerzaN;
+  presionFinal[i] = presionKPa;
+  estado[i] = "OK";
+  pantalla[i] = "Masa: " + String(masa, 1) + " g\n";
+  pantalla[i] += "Fuerza: " + String(fuerzaN, 2) + " N\n";
+  pantalla[i] += "Presion: " + String(presionKPa, 2) + " kPa";
+}
+
+String numeroCSV(float valor, int decimales) {
+  if (!isfinite(valor)) return "NA";
+  return String(valor, (unsigned int)decimales);
+}
+
+String registroCSV(int i) {
+  String s = numeroCSV(adcProm[i], 2);
+  s += "|" + numeroCSV(masaFinal[i], 1);
+  s += "|" + numeroCSV(fuerzaFinal[i], 3);
+  s += "|" + numeroCSV(presionFinal[i], 2);
+  s += "|" + estado[i];
+  return s;
+}
+
+String mensajeApp() {
+  String mensaje;
+  mensaje.reserve(400);
+  mensaje = "@";
+  mensaje += pantalla[0] + "," + pantalla[1] + "," + pantalla[2] + ",";
+  mensaje += registroCSV(0) + "|" + registroCSV(1) + "|" + registroCSV(2);
+  mensaje += ";";
+  return mensaje;
+}
+
+void imprimirMonitor() {
+  Serial.println("------------------------");
+  for (int i = 0; i < 3; i++) {
+    Serial.print("SENSOR ");
+    Serial.print((char)('A' + i));
+    Serial.print(" - GPIO");
+    Serial.println(PINES[i]);
+    Serial.print("ADC: ");
+    Serial.println(adcProm[i], 1);
+    if (isfinite(masaOriginal[i])) {
+      Serial.print("Masa original: ");
+      Serial.print(masaOriginal[i], 1);
+      Serial.println(" g");
+    }
+    Serial.println(pantalla[i]);
+    if (i < 2) Serial.println();
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  Serial.setTimeout(100);
+  bool bluetoothIniciado = SerialBT.begin("ESP32_FSR");
+  SerialBT.setTimeout(100);
+  analogReadResolution(12);
+  for (int i = 0; i < 3; i++) {
+    pinMode(PINES[i], INPUT);
+    analogSetPinAttenuation(PINES[i], ADC_11db);
+  }
+  Serial.println("Sistema FSR iniciado.");
+  Serial.println(bluetoothIniciado ? "Bluetooth: ESP32_FSR" : "Error al iniciar Bluetooth");
+  Serial.println("Correccion por tramos activa");
+  Serial.println("Orden: GPIO GANANCIA CURVA");
+}
+
+void loop() {
+  revisarEntradas();
+  for (int i = 0; i < 3; i++) medirSensor(i);
+  imprimirMonitor();
+  String trama = mensajeApp();
+  if (MOSTRAR_TRAMA_EN_SERIAL) {
+    Serial.println("TRAMA APP INVENTOR:");
+    Serial.println(trama);
+  }
+  if (SerialBT.hasClient()) SerialBT.print(trama);
+  delay(PERIODO_MS);
+}
